@@ -34,6 +34,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1046348019671808481
 SpriteRenderer:
+  serializedVersion: 2
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -79,6 +80,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_MaskInteraction: 0
   m_Sprite: {fileID: 8316809750770934921, guid: f2c9f6de8eeac00409d45fbe01e3477d, type: 3}
   m_Color: {r: 0.10196079, g: 0.7058824, b: 0.34509805, a: 1}
   m_FlipX: 0
@@ -88,7 +90,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &826873289120192530
 GameObject:
@@ -100,7 +101,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8436707174474631851}
   - component: {fileID: 438020135191880742}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: HitBox
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -170,7 +171,7 @@ GameObject:
   - component: {fileID: 2280811850201458121}
   - component: {fileID: 187620652207908264}
   - component: {fileID: 9153085397333167619}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: Shooting1
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -196,6 +197,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &2280811850201458121
 SpriteRenderer:
+  serializedVersion: 2
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -241,6 +243,7 @@ SpriteRenderer:
   m_SortingLayerID: -279295925
   m_SortingLayer: 4
   m_SortingOrder: 0
+  m_MaskInteraction: 0
   m_Sprite: {fileID: 8316809750770934921, guid: f2c9f6de8eeac00409d45fbe01e3477d, type: 3}
   m_Color: {r: 0.107600555, g: 0.735849, b: 0.35820112, a: 1}
   m_FlipX: 0
@@ -250,7 +253,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!114 &187620652207908264
 MonoBehaviour:
